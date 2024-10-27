@@ -1,2 +1,36 @@
-# selectionsort
-Kodluyoruz eğitimi kapsamında yaptığım proje
+### [22,27,16,2,18,6] ==> Insertion Sort 
+
+1. **[22,27,16,2,18,6]**  
+   1. Adım: En küçük olan sayı `2` bulundu.
+
+2. **[2,27,16,22,18,6]**  
+   2. Adım: `2` ile `22` yer değiştirdi.
+
+3. **[2,6,16,22,18,27]**  
+   3. Adım: `6` ile `27` yer değiştirdi.
+
+4. **[2,6,16,18,22,27]**  
+   4. Adım: `18` ile `22` yer değiştirdi.
+
+- **Big-O Notation:** \(O(n^2)\) ==> \(O(36)\) \[n=6\]
+
+Dizi sıralandıktan sonra `18` sayısı ortada olduğundan, **Average case** kapsamına girer.
+
+
+### [7,3,5,8,2,9,4,15,6] ==> Insertion Sort 
+
+1. **[7,3,5,8,2,9,4,15,6]**
+
+2. **[2,3,5,8,7,9,4,15,6]**
+
+3. **[2,3,4,8,7,9,5,15,6]**
+
+4. **[2,3,4,5,7,9,8,15,6]**
+
+5. **[2,3,4,5,6,9,8,15,7]**
+
+6. **[2,3,4,5,6,7,8,15,9]**
+
+7. **[2,3,4,5,6,7,8,9,15]**
+
+- **Big-O Notation:** \(O(n^2)\) ==> \(O(81)\) \[n=9\]
